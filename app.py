@@ -132,7 +132,7 @@ def update_plot(event):
             indices = tmp.index
             ax = sns.barplot(x='Bin', y='Count', hue='Sample', data=tmp)
             #ax = df[selected].plot(kind="bar", figsize=(6,4))
-            ax.set_title("Selected JSON Columns")
+            ax.set_title("Particle Counts")
             output_plot.object = ax.figure
             plt.close(ax.figure)
             ax = sns.barplot(y='Sample', x='Max Particle Size (um)', data=tmp.sort_values(by='Max Particle Size (um)', ascending=False))
