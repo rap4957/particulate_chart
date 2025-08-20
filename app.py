@@ -20,6 +20,12 @@ def get_github_json_files():
     url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/"
     response = requests.get(url)
     files = response.json()
+    
+        # Make sure the response is a list
+    if not isinstance(files, list):
+        print("Error fetching GitHub files:", files)
+        return []  # Return empty list if API call fails
+    
     return [f["name"] for f in files if f["name"].endswith(".json")]
 
 
