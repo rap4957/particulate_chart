@@ -6,7 +6,7 @@ import seaborn as sns
 import requests
 from matplotlib import pyplot as plt
 pn.extension()
-
+pn.config.page_title = "Particulate Data Dashboard"
 #Declare global variables
 
 df_store = {"df": None, "df_filtered": None } 
