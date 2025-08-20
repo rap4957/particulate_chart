@@ -39,7 +39,7 @@ def get_github_json_files():
 
 
 # 2. Widgets
-files = pn.widgets.Select(name="Pick a JSON file", options=[]))
+files = pn.widgets.Select(name="Pick a JSON file", options=[])
 rpt_selector = pn.widgets.MultiSelect(name="Select Reports to Plot", options=[], size=6)
 sample_selector = pn.widgets.MultiSelect(name="Select Samples to Plot", options=[], size=6)
 plt_bins = pn.widgets.CheckBoxGroup(
