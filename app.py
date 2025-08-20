@@ -63,7 +63,7 @@ def read_JSON(event):
     file_name = event.new
     if file_name:
         raw_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH}/data/{file_name}"
-        print(f'Reading URL {raw_URL}')
+        print(f'Reading URL {raw_url}')
         response = requests.get(raw_url)
         if response.status_code == 200:
             data = json.loads(response.text)
