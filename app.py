@@ -11,7 +11,7 @@ pn.extension()
 
 df_store = {"df": None, "df_filtered": None } 
 GITHUB_USER = "rap4957"
-GITHUB_REPO = "particulate_data"
+GITHUB_REPO = "particulate_chart"
 GITHUB_BRANCH = "main"  # or "master" or whichever branch you use
 # 1. Collect files
 # Get list of files from the GitHub repo
