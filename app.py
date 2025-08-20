@@ -20,7 +20,7 @@ GITHUB_BRANCH = "main"  # or "master" or whichever branch you use
 
     
 def get_github_json_files():
-    url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/"
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/data"
     try:
         response = requests.get(url)
         files = response.json()
