@@ -51,7 +51,7 @@ df_widget = pn.widgets.DataFrame(df_store['df'], sizing_mode='stretch_width')
 output_json = pn.pane.JSON({}, depth=2)
 output_plot = pn.pane.Matplotlib(height=500, width=500, tight=True)
 max_particle_plot = pn.pane.Matplotlib(height=500, width=500, tight=True)
-update
+
 def update_file_options(event=None):
     files_widget.options = get_github_json_files()
 
