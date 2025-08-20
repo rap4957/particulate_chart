@@ -39,7 +39,7 @@ def get_github_json_files():
 
 
 # 2. Widgets
-files = pn.widgets.Select(name="Pick a JSON file", options=[])
+files_widget = pn.widgets.Select(name="Pick a JSON file", options=[])
 rpt_selector = pn.widgets.MultiSelect(name="Select Reports to Plot", options=[], size=6)
 sample_selector = pn.widgets.MultiSelect(name="Select Samples to Plot", options=[], size=6)
 plt_bins = pn.widgets.CheckBoxGroup(
@@ -141,7 +141,7 @@ def update_plot(event):
                                           'Max Particle Size (um)', 'Notes']].reset_index(drop=True)
             
 # 5. Link callback
-files.param.watch(read_JSON, 'value')
+files_widget.param.watch(read_JSON, 'value')
 rpt_selector.param.watch(update_plot, 'value')
 sample_selector.param.watch(update_plot, 'value')
 plt_bins.param.watch(update_plot, 'value')
@@ -149,7 +149,7 @@ plt_bins.param.watch(update_plot, 'value')
 # 6. Layout
 app = pn.Column(
     pn.Row(
-        pn.Column("## Particulate File Picker", files, rpt_selector, sample_selector, plt_bins,sizing_mode="stretch_both"),
+        pn.Column("## Particulate File Picker", files_widget, rpt_selector, sample_selector, plt_bins,sizing_mode="stretch_both"),
         pn.Column(pn.Row("##Charts", output_plot, max_particle_plot, sizing_mode="stretch_both"))),
     pn.Row(df_widget),
     sizing_mode="stretch_both")
