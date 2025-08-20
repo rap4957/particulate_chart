@@ -6,7 +6,7 @@ import seaborn as sns
 import requests
 from matplotlib import pyplot as plt
 pn.extension()
-pn.config.page_title = "Particulate Data Dashboard"
+
 #Declare global variables
 
 df_store = {"df": None, "df_filtered": None } 
@@ -155,4 +155,8 @@ app = pn.Column(
     pn.Row(df_widget),
     sizing_mode="stretch_both")
 
+template = pn.template.FastListTemplate(
+    title="Particulate Data Dashboard",
+    main=[app]
+)
 app.servable()
