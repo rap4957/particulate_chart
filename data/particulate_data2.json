@@ -1,0 +1,797 @@
+[
+  {
+    "Report No.": "59554-91",
+    "Date": "dt.date(2023,6,15)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 3,
+        "Num Replicates": 1,
+        "Counts": {
+          "10um": 501,
+          "25um": 12,
+          "50um": 0
+        },
+        "Max Particle Size (um)": 40.162,
+        "Container Volume (mL)": 25
+      },
+	{
+        "Name": "Starlight Stent (Lot: Unknown)",
+        "Volume Tested per Replicate (mL)": 3,
+        "Num Replicates": 1,
+        "Counts": {
+          "10um": 443,
+          "25um": 33,
+          "50um": 3
+        },
+        "Max Particle Size (um)": 69.201,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Flushed Cath",
+        "Volume Tested per Replicate (mL)": 3,
+        "Num Replicates": 1,
+        "Counts": {
+          "10um": 434,
+          "25um": 7,
+          "50um": 2
+        },
+        "Max Particle Size (um)": 69.201,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Catheter Coating",
+        "Volume Tested per Replicate (mL)": 3,
+        "Num Replicates": 1,
+        "Counts": {
+          "10um": 163,
+          "25um": 7,
+          "50um": 1
+        },
+        "Max Particle Size (um)": 104.87,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "First test without using filtered water. Too high of counts  in control, threw out data."
+  },
+  {
+    "Report No.": "60372-91",
+    "Date": "dt.date(2023,10,4)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 37,
+            "25um": 0,
+            "50um": 0
+          },
+          {
+            "10um": 37,
+            "25um": 10,
+            "50um": 3
+          },
+          {
+            "10um": 36,
+            "25um": 5,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 79.538,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Syringe",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 25,
+            "25um": 5,
+            "50um": 0
+          },
+          {
+            "10um": 39,
+            "25um": 5,
+            "50um": 0
+          },
+          {
+            "10um": 28,
+            "25um": 2,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 37.256,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Cath Flush",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 63,
+            "25um": 6,
+            "50um": 0
+          },
+          {
+            "10um": 46,
+            "25um": 6,
+            "50um": 0
+          },
+          {
+            "10um": 38,
+            "25um": 7,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 44.555,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: Unknown)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 36,
+            "25um": 5,
+            "50um": 0
+          },
+          {
+            "10um": 28,
+            "25um": 4,
+            "50um": 1
+          },
+          {
+            "10um": 23,
+            "25um": 2,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 56.168,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "First test using filtered water. Not done at temperature"
+  },
+  {
+    "Report No.": "62498-86",
+    "Date": "dt.date(2024,3,28)",
+    "Samples": [
+      {
+        "Name": "Cath",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 141,
+            "25um": 13,
+            "50um": 2
+          },
+          {
+            "10um": 151,
+            "25um": 17,
+            "50um": 4
+          },
+          {
+            "10um": 211,
+            "25um": 28,
+            "50um": 6
+          }
+        ],
+        "Max Particle Size (um)": 191.614,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: Unknown)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 56,
+            "25um": 8,
+            "50um": 0
+          },
+          {
+            "10um": 62,
+            "25um": 11,
+            "50um": 2
+          },
+          {
+            "10um": 50,
+            "25um": 16,
+            "50um": 4
+          }
+        ],
+        "Max Particle Size (um)": 106.189,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "Not done at temperature"
+  },
+  {
+    "Report No.": "63018-86",
+    "Date": "dt.date(2024,5,16)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 2,
+        "Counts": [
+          {
+            "10um": 98,
+            "25um": 24,
+            "50um": 0
+          },
+          {
+            "10um": 56,
+            "25um": 8,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 57.918,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: Unknown)_1",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 420,
+            "25um": 55,
+            "50um": 5
+          },
+          {
+            "10um": 381,
+            "25um": 35,
+            "50um": 5
+          },
+          {
+            "10um": 299,
+            "25um": 36,
+            "50um": 2
+          }
+        ],
+        "Max Particle Size (um)": 130.648,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: Unknown)_2",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 133,
+            "25um": 56,
+            "50um": 6
+          },
+          {
+            "10um": 90,
+            "25um": 17,
+            "50um": 3
+          },
+          {
+            "10um": 77,
+            "25um": 6,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 94.044,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "Not done at temperature"
+  },
+  {
+    "Report No.": "65614-88",
+    "Date": "dt.date(2025,2,11)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 1.5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 21,
+            "25um": 1,
+            "50um": 0.375
+          },
+          {
+            "10um": 21,
+            "25um": 1,
+            "50um": 0.375
+          },
+          {
+            "10um": 21,
+            "25um": 1,
+            "50um": 0.375
+          }
+        ],
+        "Max Particle Size (um)": 76.608,
+        "Container Volume (mL)": 8
+      },
+      {
+        "Name": "Starlight Stent in Curve (Lot: Unknown)",
+        "Volume Tested per Replicate (mL)": 1.5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 54,
+            "25um": 5,
+            "50um": 2
+          },
+          {
+            "10um": 66,
+            "25um": 5,
+            "50um": 0
+          },
+          {
+            "10um": 61,
+            "25um": 5,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 102.073,
+        "Container Volume (mL)": 8
+      },
+      {
+        "Name": "Starlight Stent In Straight (Lot: Unknown)",
+        "Volume Tested per Replicate (mL)": 1.5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 23,
+            "25um": 2,
+            "50um": 0
+          },
+          {
+            "10um": 31,
+            "25um": 3,
+            "50um": 3
+          },
+          {
+            "10um": 71,
+            "25um": 30,
+            "50um": 8
+          }
+        ],
+        "Max Particle Size (um)": 444.993,
+        "Container Volume (mL)": 8
+      }
+    ],
+    "Notes": "Testing curved glass model vs. straight. First control is curved, second is straight. Not done at temperature"
+  },
+  {
+    "Report No.": "66363-88",
+    "Date": "dt.date(2025,2,11)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 25,
+            "25um": 0,
+            "50um": 0
+          },
+          {
+            "10um": 24,
+            "25um": 0,
+            "50um": 0
+          },
+          {
+            "10um": 31,
+            "25um": 2,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 30.326,
+        "Container Volume (mL)": 26.27
+      },
+      {
+        "Name": "Starlight Stent (Lot: E250014)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 214,
+            "25um": 16,
+            "50um": 2
+          },
+          {
+            "10um": 219,
+            "25um": 13,
+            "50um": 2
+          },
+          {
+            "10um": 188,
+            "25um": 8,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 105.938,
+        "Container Volume (mL)": 20.66
+      },
+      {
+        "Name": "Starlight Stent (Lot: E250016)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 202,
+            "25um": 26,
+            "50um": 1
+          },
+          {
+            "10um": 202,
+            "25um": 17,
+            "50um": 0
+          },
+          {
+            "10um": 189,
+            "25um": 12,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 84.514,
+        "Container Volume (mL)": 18.11
+      },
+      {
+        "Name": "Starlight Stent (Lot: E250015)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 171,
+            "25um": 31,
+            "50um": 3
+          },
+          {
+            "10um": 142,
+            "25um": 17,
+            "50um": 0
+          },
+          {
+            "10um": 180,
+            "25um": 15,
+            "50um": 2
+          }
+        ],
+        "Max Particle Size (um)": 103.093,
+        "Container Volume (mL)": 20.63
+      }
+    ],
+    "Notes": "Design Verification Test"
+  },
+  {
+    "Report No.": "66855-88",
+    "Date": "dt.date(2025,6,17)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 40,
+            "25um": 3,
+            "50um": 1
+          },
+          {
+            "10um": 32,
+            "25um": 4,
+            "50um": 0
+          },
+          {
+            "10um": 29,
+            "25um": 1,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 60.278,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege RX (Lot A615082)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 56,
+            "25um": 5,
+            "50um": 0
+          },
+          {
+            "10um": 56,
+            "25um": 1,
+            "50um": 0
+          },
+          {
+            "10um": 54,
+            "25um": 2,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 64.381,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege GPS (Lot: B193194)_1",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 45,
+            "25um": 4,
+            "50um": 2
+          },
+          {
+            "10um": 50,
+            "25um": 4,
+            "50um": 0
+          },
+          {
+            "10um": 35,
+            "25um": 5,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 62.285,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege GPS (Lot: B193194)_2",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 44,
+            "25um": 4,
+            "50um": 1
+          },
+          {
+            "10um": 35,
+            "25um": 2,
+            "50um": 0
+          },
+          {
+            "10um": 32,
+            "25um": 3,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 101.678,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Amplatzer DO II (Lot: 6725627)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 63,
+            "25um": 3,
+            "50um": 1
+          },
+          {
+            "10um": 44,
+            "25um": 3,
+            "50um": 0
+          },
+          {
+            "10um": 62,
+            "25um": 9,
+            "50um": 2
+          }
+        ],
+        "Max Particle Size (um)": 76.011,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "Competitive Product at Temperature"
+  },
+  {
+    "Report No.": "67255-62",
+    "Date": "dt.date(2025,8,5)",
+    "Samples": [
+      {
+        "Name": "Control",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 28,
+            "25um": 1,
+            "50um": 0
+          },
+          {
+            "10um": 24,
+            "25um": 0,
+            "50um": 0
+          },
+          {
+            "10um": 18,
+            "25um": 0,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 35.629,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: E250023)_1",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 113,
+            "25um": 3,
+            "50um": 0
+          },
+          {
+            "10um": 136,
+            "25um": 6,
+            "50um": 0
+          },
+          {
+            "10um": 126,
+            "25um": 3,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 34.016,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Starlight Stent (Lot: E250023)_2",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 338,
+            "25um": 35,
+            "50um": 9
+          },
+          {
+            "10um": 299,
+            "25um": 25,
+            "50um": 3
+          },
+          {
+            "10um": 297,
+            "25um": 27,
+            "50um": 2
+          }
+        ],
+        "Max Particle Size (um)": 100.859,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege RX (Lot: B575151)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 69,
+            "25um": 8,
+            "50um": 2
+          },
+          {
+            "10um": 59,
+            "25um": 0,
+            "50um": 0
+          },
+          {
+            "10um": 47,
+            "25um": 6,
+            "50um": 1
+          }
+        ],
+        "Max Particle Size (um)": 34.811,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Amplatzer DO II (Lot: 6983516)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 46,
+            "25um": 5,
+            "50um": 1
+          },
+          {
+            "10um": 51,
+            "25um": 2,
+            "50um": 0
+          },
+          {
+            "10um": 46,
+            "25um": 2,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 93.754,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Amplatzer DO II (Lot: 5667092)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 59,
+            "25um": 3,
+            "50um": 0
+          },
+          {
+            "10um": 58,
+            "25um": 5,
+            "50um": 1
+          },
+          {
+            "10um": 47,
+            "25um": 2,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 53.938,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege GPS (Lot: A237804)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 162,
+            "25um": 7,
+            "50um": 1
+          },
+          {
+            "10um": 144,
+            "25um": 3,
+            "50um": 0
+          },
+          {
+            "10um": 113,
+            "25um": 7,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 70.788,
+        "Container Volume (mL)": 25
+      },
+      {
+        "Name": "Protege GPS (Lot: B118209)",
+        "Volume Tested per Replicate (mL)": 5,
+        "Num Replicates": 3,
+        "Counts": [
+          {
+            "10um": 30,
+            "25um": 1,
+            "50um": 0
+          },
+          {
+            "10um": 22,
+            "25um": 1,
+            "50um": 0
+          },
+          {
+            "10um": 27,
+            "25um": 0,
+            "50um": 0
+          }
+        ],
+        "Max Particle Size (um)": 38.239,
+        "Container Volume (mL)": 25
+      }
+    ],
+    "Notes": "Aged Starlight Devices vs. Competitive Product at Temperature"
+  }
+]
