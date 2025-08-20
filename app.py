@@ -16,23 +16,30 @@ GITHUB_BRANCH = "main"  # or "master" or whichever branch you use
 # 1. Collect files
 # Get list of files from the GitHub repo
 
+
+
+    
 def get_github_json_files():
     url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/"
-    response = requests.get(url)
-    files = response.json()
-    
-        # Make sure the response is a list
-    if not isinstance(files, list):
-        print("Error fetching GitHub files:", files)
-        return []  # Return empty list if API call fails
-    
-    return [f["name"] for f in files if f["name"].endswith(".json")]
+    try:
+        response = requests.get(url)
+        files = response.json()
+        if isinstance(files, list):
+            return [f["name"] for f in files if f["name"].endswith(".json")]
+                    # Make sure the response is a list
+        else:
+            print("GitHub API error:", files)
+            return []
+    except Exception as e:
+        print("Error fetching files:", e)
+        return []
+                       
 
 
 
 
 # 2. Widgets
-files = pn.widgets.Select(name="Pick a JSON file", options=get_github_json_files())
+files = pn.widgets.Select(name="Pick a JSON file", options=[]))
 rpt_selector = pn.widgets.MultiSelect(name="Select Reports to Plot", options=[], size=6)
 sample_selector = pn.widgets.MultiSelect(name="Select Samples to Plot", options=[], size=6)
 plt_bins = pn.widgets.CheckBoxGroup(
@@ -44,8 +51,11 @@ df_widget = pn.widgets.DataFrame(df_store['df'], sizing_mode='stretch_width')
 output_json = pn.pane.JSON({}, depth=2)
 output_plot = pn.pane.Matplotlib(height=500, width=500, tight=True)
 max_particle_plot = pn.pane.Matplotlib(height=500, width=500, tight=True)
+update
+def update_file_options(event=None):
+    files_widget.options = get_github_json_files()
 
- 
+update_file_options()
 
 # 4. Callback
 def read_JSON(event):
